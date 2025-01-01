@@ -10,4 +10,10 @@ app.get("/",(req,res) => {
   res.send("<H1>Welcome again!What up?</H1>");
 });
 
+const PORT = 8080;
+
+app.listen(PORT,() => {
+  console.log(`Listen port ${PORT}`);
+});
+
 console.log("workking");
