@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: npm install express
       - run: npm install
-      - run: nohup node index.js
+      - run: node index.js
