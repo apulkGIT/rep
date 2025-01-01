@@ -1,6 +1,5 @@
 name: Test node workflow
-on:
-  [workflow_dispatch]
+on: push
 jobs:
   first:
     name: build-with-node
@@ -12,5 +11,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: npm install express
       - run: npm install
-      - run: docker . -t apulkGIT/rep:latest
-      - run: docker push apulkGIT/rep:latest
+      - run: nohup node index.js
