@@ -12,8 +12,6 @@ jobs:
       - run: npm install express
       - run: npm install
       - run: node index.js
-
-services:
   test2:
    image: alphonso/docker-express-api
    ontainer_name: express-api
