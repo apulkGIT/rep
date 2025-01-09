@@ -15,4 +15,4 @@ RUN npm install
 COPY . /app
 
 # Run the container
-CMD ["node", "index.js"]
+CMD ["node", "test.js"]
