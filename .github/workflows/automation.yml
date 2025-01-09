@@ -1,7 +1,5 @@
 name: Test node workflow
 on: push
-input:
- name: xxxxxxxxxxxxxx
 jobs:
   first:
     name: build-with-node
