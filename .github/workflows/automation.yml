@@ -16,5 +16,3 @@ jobs:
         with:
           name: "asdfaasdf"
       - run: node test.js
-        with:
-          name: "test onnistui"
