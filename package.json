@@ -1,5 +1,7 @@
 {
   "name": "rep-project",
   "version": "1.0.0",
+  "private": true,
+  "homepage": "https://apulkGIT.github.io/rep/",
   "main": "index.js"
 }
