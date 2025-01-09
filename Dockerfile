@@ -9,6 +9,7 @@ COPY package.json /app
 
 # This will install those dependencies
 RUN npm install express
+RUN npm @actions/core
 RUN npm install
 
 # Copy the rest of the app to the working directory
