@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: npm install express
       - run: npm install
+      - run: npm install @actions/core
       - uses: ./
         with:
           name: "asdfaasdf"
